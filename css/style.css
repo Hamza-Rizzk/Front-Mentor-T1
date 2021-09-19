@@ -1,0 +1,161 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  width: 481px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Small Screens */
+/* @media (min-width: 768px){
+  .container {
+    width: 750px;
+  }
+} */
+
+/* Medium Screens */
+/* @media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+} */
+
+/* Large Screens */
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+} */
+
+.header .layout {
+  width: 100%;
+  background-color: #FFF;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.header .layout img {
+  margin-bottom: 30px;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+}
+
+.header .heading h2 {
+  margin-bottom: 20px;
+  color:hsl(223, 47%, 23%);
+}
+
+.header .heading p {
+  font-size: 16px;
+  padding: 0px 45px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: hsl(224, 23%, 55%);
+}
+
+.header .layout .changes {
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.header .layout .changes .images {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.header .layout .changes .images img {
+  background-color: hsl(225, 100%, 94%);
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header .layout .changes .plan {
+  width: 45%;
+  display: grid;
+  justify-content: flex-start;
+  margin-top: -10px;
+}
+
+.header .layout .changes .plan h3 {
+  color: hsl(223, 47%, 23%);
+  padding-bottom: 3px;
+}
+
+.header .layout .changes .plan span {
+  display: block;
+  margin-left: -15px;
+  color: hsl(224, 23%, 55%);
+}
+
+.header .layout .changes a {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header .layout button {
+  width: 80%;
+  display: block;
+  margin: 0 auto 30px;
+  padding: 18px;
+  background-color: hsl(245, 48%, 59%);
+  color: #FFF;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  box-shadow: 8px 12px 21px #ccc;;
+  cursor: pointer;
+}
+
+.header .layout .cancel a {
+  display: block;
+  padding-bottom: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  color: hsl(223, 47%, 23%);
+}
