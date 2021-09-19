@@ -45,7 +45,7 @@ body {
 .header .layout {
   width: 100%;
   background-color: #FFF;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: 75px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -139,7 +139,7 @@ body {
   display: block;
   margin: 0 auto 30px;
   padding: 18px;
-  background-color: hsl(245, 48%, 59%);
+  background-color: hsl(224, 23%, 55%);
   color: #FFF;
   font-weight: bold;
   border: none;
